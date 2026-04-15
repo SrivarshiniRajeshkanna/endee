@@ -12,7 +12,7 @@ import httpx
 from openai import OpenAI
 
 # --- Configuration ---
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your-openai-api-key-here")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
 ENDEE_URL = os.getenv("ENDEE_URL", "http://localhost:8080")
 INDEX_NAME = "research_memory"
 EMBEDDING_MODEL = "text-embedding-3-small"
